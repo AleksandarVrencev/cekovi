@@ -1,0 +1,3 @@
+pyinstaller --onefile --noconsole --hidden-import babel.numbers cekovi.py
+
+--hidden-import babel.numbers is for tkcalendar
